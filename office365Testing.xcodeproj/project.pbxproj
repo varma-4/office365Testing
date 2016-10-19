@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E27750A05400D2EEC235DA1 /* libPods-office365Testing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA266F78A16F5BB855EB3154 /* libPods-office365Testing.a */; };
+		917835970F3161534FB45421 /* libPods-office365TestingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372BE85D37563D86C9DDD93B /* libPods-office365TestingUITests.a */; };
 		AD1C0E841DB67F2500806F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C0E831DB67F2500806F0A /* AppDelegate.swift */; };
 		AD1C0E861DB67F2500806F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C0E851DB67F2500806F0A /* ViewController.swift */; };
 		AD1C0E891DB67F2500806F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1C0E871DB67F2500806F0A /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		AD1C0E8E1DB67F2500806F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1C0E8C1DB67F2500806F0A /* LaunchScreen.storyboard */; };
 		AD1C0E991DB67F2500806F0A /* office365TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C0E981DB67F2500806F0A /* office365TestingTests.swift */; };
 		AD1C0EA41DB67F2500806F0A /* office365TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C0EA31DB67F2500806F0A /* office365TestingUITests.swift */; };
+		E14D2F9440852367C7ABB993 /* libPods-office365TestingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE143CA9020A01184D0CA81 /* libPods-office365TestingTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19717BE39A7BD148A09C462E /* Pods-office365TestingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-office365TestingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-office365TestingUITests/Pods-office365TestingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		372BE85D37563D86C9DDD93B /* libPods-office365TestingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-office365TestingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE143CA9020A01184D0CA81 /* libPods-office365TestingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-office365TestingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C514526FD9FE5AF272E681 /* Pods-office365TestingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-office365TestingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-office365TestingTests/Pods-office365TestingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD1C0E801DB67F2500806F0A /* office365Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = office365Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1C0E831DB67F2500806F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD1C0E851DB67F2500806F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		AD1C0E9F1DB67F2500806F0A /* office365TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = office365TestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1C0EA31DB67F2500806F0A /* office365TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = office365TestingUITests.swift; sourceTree = "<group>"; };
 		AD1C0EA51DB67F2500806F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2852B2FBF3DB1C309369CF7 /* Pods-office365Testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-office365Testing.release.xcconfig"; path = "Pods/Target Support Files/Pods-office365Testing/Pods-office365Testing.release.xcconfig"; sourceTree = "<group>"; };
+		C0E7F052FFCD1409E83DF13C /* Pods-office365TestingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-office365TestingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-office365TestingTests/Pods-office365TestingTests.release.xcconfig"; sourceTree = "<group>"; };
+		CED5C5CC2AAB6C6F4D0C1A74 /* Pods-office365TestingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-office365TestingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-office365TestingUITests/Pods-office365TestingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE780A06927AE2537C2E28C0 /* Pods-office365Testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-office365Testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-office365Testing/Pods-office365Testing.debug.xcconfig"; sourceTree = "<group>"; };
+		EA266F78A16F5BB855EB3154 /* libPods-office365Testing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-office365Testing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E27750A05400D2EEC235DA1 /* libPods-office365Testing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14D2F9440852367C7ABB993 /* libPods-office365TestingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917835970F3161534FB45421 /* libPods-office365TestingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A301E0C2CE836A6BA6CDF3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA266F78A16F5BB855EB3154 /* libPods-office365Testing.a */,
+				4DE143CA9020A01184D0CA81 /* libPods-office365TestingTests.a */,
+				372BE85D37563D86C9DDD93B /* libPods-office365TestingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD1C0E771DB67F2400806F0A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				AD1C0E971DB67F2500806F0A /* office365TestingTests */,
 				AD1C0EA21DB67F2500806F0A /* office365TestingUITests */,
 				AD1C0E811DB67F2500806F0A /* Products */,
+				D9EEE2F946F4AB86F40991DA /* Pods */,
+				1A301E0C2CE836A6BA6CDF3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = office365TestingUITests;
 			sourceTree = "<group>";
 		};
+		D9EEE2F946F4AB86F40991DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE780A06927AE2537C2E28C0 /* Pods-office365Testing.debug.xcconfig */,
+				B2852B2FBF3DB1C309369CF7 /* Pods-office365Testing.release.xcconfig */,
+				52C514526FD9FE5AF272E681 /* Pods-office365TestingTests.debug.xcconfig */,
+				C0E7F052FFCD1409E83DF13C /* Pods-office365TestingTests.release.xcconfig */,
+				19717BE39A7BD148A09C462E /* Pods-office365TestingUITests.debug.xcconfig */,
+				CED5C5CC2AAB6C6F4D0C1A74 /* Pods-office365TestingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD1C0EA81DB67F2500806F0A /* Build configuration list for PBXNativeTarget "office365Testing" */;
 			buildPhases = (
+				7CF099C4ADD86C80D3E95C83 /* [CP] Check Pods Manifest.lock */,
 				AD1C0E7C1DB67F2400806F0A /* Sources */,
 				AD1C0E7D1DB67F2400806F0A /* Frameworks */,
 				AD1C0E7E1DB67F2400806F0A /* Resources */,
+				C940614F2EB0D7AC717FA868 /* [CP] Embed Pods Frameworks */,
+				50011F32641B29BE450B6B84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD1C0EAB1DB67F2500806F0A /* Build configuration list for PBXNativeTarget "office365TestingTests" */;
 			buildPhases = (
+				EACF6F64A4855D0508EC9F64 /* [CP] Check Pods Manifest.lock */,
 				AD1C0E901DB67F2500806F0A /* Sources */,
 				AD1C0E911DB67F2500806F0A /* Frameworks */,
 				AD1C0E921DB67F2500806F0A /* Resources */,
+				B8B64CF77EB328D622A997C9 /* [CP] Embed Pods Frameworks */,
+				4F6B3010AD4E384E07FDE5F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD1C0EAE1DB67F2500806F0A /* Build configuration list for PBXNativeTarget "office365TestingUITests" */;
 			buildPhases = (
+				5097EC89CF81F4BB4946A303 /* [CP] Check Pods Manifest.lock */,
 				AD1C0E9B1DB67F2500806F0A /* Sources */,
 				AD1C0E9C1DB67F2500806F0A /* Frameworks */,
 				AD1C0E9D1DB67F2500806F0A /* Resources */,
+				4F9CCD04A40D2F12E6E5A73A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +304,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F6B3010AD4E384E07FDE5F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-office365TestingTests/Pods-office365TestingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F9CCD04A40D2F12E6E5A73A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-office365TestingUITests/Pods-office365TestingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50011F32641B29BE450B6B84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-office365Testing/Pods-office365Testing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5097EC89CF81F4BB4946A303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CF099C4ADD86C80D3E95C83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B64CF77EB328D622A997C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-office365TestingTests/Pods-office365TestingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C940614F2EB0D7AC717FA868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-office365Testing/Pods-office365Testing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACF6F64A4855D0508EC9F64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD1C0E7C1DB67F2400806F0A /* Sources */ = {
@@ -413,6 +584,7 @@
 		};
 		AD1C0EA91DB67F2500806F0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE780A06927AE2537C2E28C0 /* Pods-office365Testing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D3AXA88DHR;
@@ -426,6 +598,7 @@
 		};
 		AD1C0EAA1DB67F2500806F0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2852B2FBF3DB1C309369CF7 /* Pods-office365Testing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D3AXA88DHR;
@@ -439,6 +612,7 @@
 		};
 		AD1C0EAC1DB67F2500806F0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C514526FD9FE5AF272E681 /* Pods-office365TestingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +628,7 @@
 		};
 		AD1C0EAD1DB67F2500806F0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E7F052FFCD1409E83DF13C /* Pods-office365TestingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +644,7 @@
 		};
 		AD1C0EAF1DB67F2500806F0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19717BE39A7BD148A09C462E /* Pods-office365TestingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = D3AXA88DHR;
@@ -483,6 +659,7 @@
 		};
 		AD1C0EB01DB67F2500806F0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED5C5CC2AAB6C6F4D0C1A74 /* Pods-office365TestingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = D3AXA88DHR;
@@ -514,6 +691,7 @@
 				AD1C0EAA1DB67F2500806F0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD1C0EAB1DB67F2500806F0A /* Build configuration list for PBXNativeTarget "office365TestingTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +700,7 @@
 				AD1C0EAD1DB67F2500806F0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD1C0EAE1DB67F2500806F0A /* Build configuration list for PBXNativeTarget "office365TestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +709,7 @@
 				AD1C0EB01DB67F2500806F0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
